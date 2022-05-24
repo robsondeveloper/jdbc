@@ -1,0 +1,6 @@
+CREATE TABLE produto (
+	id SERIAL PRIMARY KEY,
+	nome CHARACTER VARYING(128) NOT NULL,
+    preco DECIMAL(8,2) NOT NULL,
+    UNIQUE (nome)
+);
